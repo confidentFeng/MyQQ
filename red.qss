@@ -1,0 +1,113 @@
+
+QFrame#upGifFrame{
+border-image: url(:/qqLogin/images/red69-2.gif);
+}
+
+QPushButton#setPushButton:menu-indicator{image:none}
+
+
+QLabel#touXiangLabel
+{
+border-image: url(:/qqLogin/images/sf.jpg);
+}
+
+QLineEdit
+{
+
+border-bottom:1px solid black;
+border-top:0px solid black;
+border-bottom-color: rgb(135, 135, 135);
+
+}
+/**加上一个小键盘***/
+QLineEdit#passwdLineEdit
+{
+
+background-image: url(:/qqLogin/images/keyborad.png);
+background-repeat:no;
+background-position:right center;
+background-origin: content;
+
+}
+
+QLineEdit:hover
+{
+    padding-top:0px ;
+    border: 1px solid rgb(21 , 131 , 221);
+}
+
+/*复选框方框部分基本样式*/
+QCheckBox
+{
+    color:rgb(101 , 101 , 101);
+}
+/*复选框方框部分选中样式*/
+QCheckBox:indicator:checked {
+       border:1px solid #278CDE;
+       background-image: url(:/qqLogin/images/check.png);
+}
+/*复选框方框部分悬停*/
+QCheckBox:hover{
+
+        color: rgb(44, 44, 44);
+}
+
+
+QPushButton#LoginPushButton
+{
+    /*color:white;
+    background-color:rgb(14 , 150 , 254);
+    border-radius:5px;*/
+
+    border-radius:4px;
+    border:none;
+    background-color: #09A3DC;
+    color:#fff;
+}
+QPushButton#LoginPushButton:hover
+{
+   /* color:white;
+    background-color:rgb(44 , 137 , 255);*/
+
+    background-color:rgb(60,195,245);
+}
+
+QPushButton#LoginPushButton:pressed
+{
+    color:white;
+    background-color:rgb(14 , 135 , 228);
+    padding-left:3px;
+    padding-top:3px;
+}
+
+QPushButton#registerPushButton{
+       /* color: rgb(135, 135, 135);*/
+        color: #09A3DC;
+
+}
+
+QPushButton#registerPushButton:hover{
+
+       /* color: rgb(44, 44, 44);*/
+        color: rgba(9, 163, 220 ,120);
+}
+
+QPushButton#registerPushButton:pressed{
+        color: rgb(30, 198, 252);
+        border:0px;
+}
+
+QPushButton#lookForPasswordPushButton{
+        color: #09A3DC;
+
+}
+
+QPushButton#lookForPasswordPushButton:hover{
+
+         color: rgba(9, 163, 220 ,120);
+}
+
+QPushButton#lookForPasswordPushButton:pressed{
+        color: rgb(30, 198, 252);
+        border:0px;
+}
