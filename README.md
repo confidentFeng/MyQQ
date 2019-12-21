@@ -1,2 +1,1 @@
-# Qt-Project
-This is a project written in Qt.
+# Qt编写的QQ客户端和服务端（使用了TCP和数据库）
